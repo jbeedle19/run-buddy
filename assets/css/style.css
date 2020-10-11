@@ -48,6 +48,16 @@ header nav ul li a {
     background-position: center;
     position: relative;
 }
+.hero-form {
+    background-color: #fce138;
+    color: #024e76;
+    padding: 20px;
+    width: 500px;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
 .hero-form h3 {
     font-size: 40px;
     margin: 0;
@@ -64,15 +74,15 @@ header nav ul li a {
     width: 100%;
     margin-bottom: 15px; 
 }
-.hero-form {
-    background-color: #fce138;
-    color: #024e76;
-    padding: 20px;
-    width: 500px;
-    border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+.hero-form label {
+    margin: 0 5px;
+}
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 /* Hero Style End */
 
