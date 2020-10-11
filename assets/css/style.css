@@ -1,0 +1,23 @@
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* apply styles to <h1> "Run Buddy" */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+
+/* apply styles to <a> listed items */
+header a {
+    color: #fce138
+}
