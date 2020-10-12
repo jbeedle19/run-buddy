@@ -9,13 +9,14 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* Header Styles Start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
+/* Header Styles End */
 
-/* apply styles to <nav> */
+/* Navigation Styles Start */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -39,6 +40,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/* Navigation Styles End */
 
 /* Hero Style Start */
 .hero {
@@ -86,7 +88,7 @@ header nav ul li a {
 }
 /* Hero Style End */
 
-/* Shared Styles for Sections Start */
+/* Shared Styles for Several Sections Start */
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -218,7 +220,7 @@ header nav ul li a {
 }
 /* Reach Out Style End */
 
-/* apply styles to <footer> */
+/* Footer Styles Start */
 footer {
     background: #fce138;
     width: 100%;
@@ -242,3 +244,4 @@ footer a {
 section {
     padding: 60px;
 }
+/* Footer Styles End */
