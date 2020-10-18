@@ -12,3 +12,5 @@ https://jbeedle19.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Joshua Beedle
+
+### ©2019 Run Buddy, Inc
