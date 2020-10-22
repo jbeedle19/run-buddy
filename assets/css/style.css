@@ -298,6 +298,7 @@ header nav ul li a:hover {
     padding: 15px;
     align-items: flex-end;
     position: relative;
+    overflow: hidden;
 }
 .trainer-img::after {
     content: "";
@@ -307,17 +308,30 @@ header nav ul li a:hover {
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.trainers article:hover .trainer-img::after {
+    opacity: 1;
+}
+.trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
+    top: 0px;
 }
 .trainer-img h3 {
     font-size: 28px;
     margin-bottom: 5px;
     position: relative;
+    top: 200px;
     z-index: 9997;
+    transition: 0.6s;
 }
 .trainer-img h4 {
     font-size: 22px;
     position: relative;
+    top: 200px;
     z-index: 9998;
+    transition: 0.6s;
+    transition-delay: 0.2s;
 }
 .trainer-1 {
     background-image: url("../images/trainer-1.jpg");
