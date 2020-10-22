@@ -9,17 +9,22 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Header Styles Start */
+/* Header/Navigation Styles Start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
-/* Header Styles End */
-
-/* Navigation Styles Start */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -47,7 +52,7 @@ header nav ul li a {
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-/* Navigation Styles End */
+/* Header/Navigation Styles End */
 
 /* Hero Style Start */
 .hero {
@@ -366,6 +371,7 @@ section {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {
